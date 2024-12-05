@@ -14,7 +14,7 @@ class AllDebrid:
         self.session = session
         self.proxy = None
 
-        self.api_url = "http://api.alldebrid.com/v4"
+        self.api_url = "http://api.alldebrid.com/v4.1"
         self.agent = "comet"
 
     async def check_premium(self):
